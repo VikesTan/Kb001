@@ -23,8 +23,12 @@
         .logo-icon {
             width: 40px;
             height: 40px;
-            background-color: #ddd;
             margin: 0 auto 12px;
+        }
+        .logo-icon img{
+            width:100%;
+            height:100%;
+            object-fit:contain;
         }
         .logo-title-en {
             font-size: 20px;
@@ -44,7 +48,6 @@
             width: 60%;
             max-width: 700px;
             height: 280px;
-            background-color: #ddd;
             margin: 0 auto 40px;
             cursor: pointer;
         }
@@ -69,8 +72,12 @@
         .footer-logo {
             width: 16px;
             height: 16px;
-            background-color: #ddd;
             margin: 0 auto 10px;
+        }
+        .footer-logo img{
+            width:100%;
+            height:100%;
+            object-fit:contain;
         }
         .footer {
             font-size: 10px;
@@ -82,30 +89,35 @@
 <body>
 
 <div class="logo-area">
-    <div class="logo-icon"></div>
+    <div class="logo-icon">
+        <img src="./images/logo1.png" alt="logo">
+    </div>
     <div class="logo-title-en">KreatBloom</div>
     <div class="logo-title-zh">创意绽放</div>
 </div>
 
 <div class="tagline">为生活绽放创意</div>
 
-<!-- 第一张图 点击跳转 -->
 <a href="https://apps.apple.com/cn/app/id1627691759" target="_blank" style="display:block;">
-    <div class="image-block"></div>
+    <div class="image-block">
+        <img src="./images/img1.png" alt="展示图">
+    </div>
 </a>
 
-<!-- 第二张图 点击跳转 -->
 <a href="https://apps.apple.com/cn/app/id1671273737" target="_blank" style="display:block;">
-    <div class="image-block"></div>
+    <div class="image-block">
+        <img src="./images/img2.png" alt="展示图">
+    </div>
 </a>
 
 <div class="contact-area">
     <div class="contact-label">联系</div>
-    <!-- 邮箱点击发邮件 -->
     <a href="mailto:support@kreatbloom.com" class="contact-email">support@kreatbloom.com</a>
 </div>
 
-<div class="footer-logo"></div>
+<div class="footer-logo">
+    <img src="./images/logo2.png" alt="logo">
+</div>
 
 <div class="footer">
     ©2026 Shenzhen KreatBloom Technology Co., Ltd. 深圳创意绽放科技有限公司 版权所有<br>
